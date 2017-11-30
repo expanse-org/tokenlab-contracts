@@ -1,0 +1,307 @@
+[{
+    "constant": false,
+    "inputs": [{
+        "name": "_owner",
+        "type": "address"
+    }, {
+        "name": "_spender",
+        "type": "address"
+    }],
+    "name": "getAllowance",
+    "outputs": [{
+        "name": "remaining",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "totalSupply",
+    "outputs": [{
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "name": "",
+        "type": "address"
+    }],
+    "name": "balances",
+    "outputs": [{
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "_val",
+        "type": "uint256"
+    }],
+    "name": "decTotalSupply",
+    "outputs": [{
+        "name": "success",
+        "type": "bool"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [],
+    "name": "kill",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "_sendTo",
+        "type": "address"
+    }],
+    "name": "empty",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "_acct",
+        "type": "address"
+    }, {
+        "name": "_val",
+        "type": "uint256"
+    }],
+    "name": "incBalance",
+    "outputs": [{
+        "name": "success",
+        "type": "bool"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "_sender",
+        "type": "address"
+    }, {
+        "name": "_spender",
+        "type": "address"
+    }, {
+        "name": "_value",
+        "type": "uint256"
+    }],
+    "name": "setApprove",
+    "outputs": [{
+        "name": "success",
+        "type": "bool"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "name": "",
+        "type": "address"
+    }],
+    "name": "modules",
+    "outputs": [{
+        "name": "",
+        "type": "bool"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "_acct",
+        "type": "address"
+    }, {
+        "name": "_val",
+        "type": "uint256"
+    }],
+    "name": "decBalance",
+    "outputs": [{
+        "name": "success",
+        "type": "bool"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "_acct",
+        "type": "address"
+    }, {
+        "name": "_set",
+        "type": "bool"
+    }],
+    "name": "setModule",
+    "outputs": [{
+        "name": "success",
+        "type": "bool"
+    }, {
+        "name": "module",
+        "type": "address"
+    }, {
+        "name": "set",
+        "type": "bool"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "_acct",
+        "type": "address"
+    }],
+    "name": "getModule",
+    "outputs": [{
+        "name": "",
+        "type": "bool"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "_newOwner",
+        "type": "address"
+    }],
+    "name": "transferRoot",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [],
+    "name": "getTotalSupply",
+    "outputs": [{
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "root",
+    "outputs": [{
+        "name": "",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "_val",
+        "type": "uint256"
+    }],
+    "name": "incTotalSupply",
+    "outputs": [{
+        "name": "success",
+        "type": "bool"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "_acct",
+        "type": "address"
+    }],
+    "name": "getBalance",
+    "outputs": [{
+        "name": "balance",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "name": "_from",
+        "type": "address"
+    }, {
+        "name": "_spender",
+        "type": "address"
+    }, {
+        "name": "_value",
+        "type": "uint256"
+    }],
+    "name": "decApprove",
+    "outputs": [{
+        "name": "success",
+        "type": "bool"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "inputs": [{
+        "name": "_owner",
+        "type": "address"
+    }, {
+        "name": "_supply",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+}, {
+    "anonymous": false,
+    "inputs": [{
+        "indexed": true,
+        "name": "Module",
+        "type": "address"
+    }, {
+        "indexed": true,
+        "name": "Account",
+        "type": "address"
+    }, {
+        "indexed": false,
+        "name": "Amount",
+        "type": "uint256"
+    }, {
+        "indexed": false,
+        "name": "Polarity",
+        "type": "string"
+    }],
+    "name": "BalanceAdj",
+    "type": "event"
+}, {
+    "anonymous": false,
+    "inputs": [{
+        "indexed": true,
+        "name": "Module",
+        "type": "address"
+    }, {
+        "indexed": true,
+        "name": "Set",
+        "type": "bool"
+    }],
+    "name": "ModuleSet",
+    "type": "event"
+}]
